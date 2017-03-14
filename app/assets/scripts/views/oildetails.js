@@ -254,7 +254,7 @@ var OilDetails = BaseView.extend({
     // Default model data
     var defaultModelData = {
       info: Oci.data.info,
-      opgee: Oci.Collections.opgee.get(utils.getOPGEEModel('0', '0', '0')).toJSON(),
+      opgee: Oci.Collections.opgee.get(utils.getOPGEEModel('0', '0', '0', '0')).toJSON(),
       prelim: Oci.Collections.prelim.get(utils.getPRELIMModel('0 = Default', 1)).toJSON()
     };
 
@@ -262,7 +262,7 @@ var OilDetails = BaseView.extend({
     var params = this.modelParametersView.getModelValues();
 
     // if we don't have the necessary data, load it
-    var opgeeRun = utils.getOPGEEModel(params.solarSteam, params.water, params.flaring);
+    var opgeeRun = utils.getOPGEEModel(params.solarSteam, params.water, params.flaring, params.year);
     var prelimRun = utils.getPRELIMModel(params.refinery, params.lpg);
     if (!Oci.Collections.opgee.get(opgeeRun)) {
       var opgeeModel = new OpgeeModel({ id: opgeeRun });
