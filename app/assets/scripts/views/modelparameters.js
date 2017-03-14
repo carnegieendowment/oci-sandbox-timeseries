@@ -250,8 +250,8 @@ var ModelParameters = Backbone.View.extend({
     solarSteamLabels = this.sliderHelper(solarSteamValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
-    yearLabels = this.sliderHelper(yearValues);
-    cokeLabels = this.sliderHelperYear(cokeValues);
+    yearLabels = this.sliderHelperYear(yearValues);
+    cokeLabels = this.sliderHelper(cokeValues);
   },
 
   // helper function for setSliders
@@ -267,8 +267,6 @@ var ModelParameters = Backbone.View.extend({
   },
     
   sliderHelperYear: function (array) {
-    var min = d3.min(array);
-    var max = d3.max(array);
     var tempArray = array.map(function (val) {
       return (val).toFixed(0);
     });
