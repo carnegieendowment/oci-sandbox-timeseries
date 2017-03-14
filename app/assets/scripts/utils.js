@@ -72,6 +72,7 @@ var utils = {
           }
         }
       }
+    }
       for (var l = 0; l < data.metadata.refinery.split(',').length; l++) {
         // this for loop is for LPG runs
         for (var m = 0; m < 2; m++) {
