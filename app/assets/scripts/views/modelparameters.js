@@ -192,25 +192,25 @@ var ModelParameters = Backbone.View.extend({
     this.waterSlider.on('update', function (value) {
       self.trigger('sliderUpdate', value);
     });
-      
-   this.yearSlider = noUiSlider.create($('#slider-year')[0], {
-       start: 1966,
-       connect: 'lower',
-       snap: true,
-       range: _.zipObject(yearLabels, yearValues),
-       pips: {
-           mode: 'values',
-           values: yearValues,
-           density: 10,
-           format: wNumb({
-               postfix: '%'
-           }),
-           stepped: true
-       }
-   });
-   this.yearSlider.on('update', function(value) {
-       self.trigger('sliderUpdate', value);
-   });
+ 
+    this.yearSlider = noUiSlider.create($('#slider-year')[0], {
+      start: 1966,
+      connect: 'lower',
+      snap: true,
+      range: _.zipObject(yearLabels, yearValues),
+      pips: {
+        mode: 'values',
+        values: yearValues,
+        density: 10,
+        format: wNumb({
+          postfix: '%'
+        }),
+        stepped: true
+      }
+    });
+    this.yearSlider.on('update', function (value) {
+      self.trigger('sliderUpdate', value);
+    });
 
     this.cokeSlider = noUiSlider.create($('#slider-coke')[0], {
       start: 100,
