@@ -54,13 +54,14 @@ var utils = {
       for (var i = 0; i < data.metadata.solarSteam.split(',').length; i++) {
         for (var j = 0; j < data.metadata.water.split(',').length; j++) {
           for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
-            // if we don't have the necessary data, load it
-            var opgeeRun = 'run' + i + j + k;
-            if (!Oci.Collections.opgee.get(opgeeRun)) {
-              var opgeeModel = new OpgeeModel({ id: opgeeRun });
-              opgeeModel.fetch({ async: false, success: function (data) {
-                Oci.Collections.opgee.add(data);
-              }});
+              for (var n = 0; l < data.metadata.years.split(',').length; n++) {
+                    // if we don't have the necessary data, load it
+                    var opgeeRun = 'run' + i + j + k + n;
+                    if (!Oci.Collections.opgee.get(opgeeRun)) {
+                    var opgeeModel = new OpgeeModel({ id: opgeeRun });
+                     opgeeModel.fetch({ async: false, success: function (data) {
+                        Oci.Collections.opgee.add(data);
+                        }});
             }
             var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
             var extraction = +opgee['Net lifecycle emissions'];
@@ -68,6 +69,7 @@ var utils = {
             if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
               opgeeExtent = extraction;
             }
+           }
           }
         }
       }
@@ -610,19 +612,20 @@ var utils = {
   },
 
   // Get the current OPGEE model based on model parameters
-  getOPGEEModel: function (solarSteam, water, flaring) {
+  getOPGEEModel: function (solarSteam, water, flaring, year) {
     var metadata = Oci.data.metadata;
     var si = this.indexInArray(this.trimMetadataArray(metadata.solarSteam.split(',')), solarSteam);
     var wi = this.indexInArray(this.trimMetadataArray(metadata.water.split(',')), water);
     var fi = this.indexInArray(this.trimMetadataArray(metadata.flare.split(',')), flaring);
+    var yi = this.indexInArray(this.trimMetadataArray(metadata.year.split(',')), year);
 
     // Generate model string
     var model = 'run';
     // If we don't have a match, return default
-    if (si === -1 || wi === -1 || fi === -1) {
-      model += '000';
+    if (si === -1 || wi === -1 || fi === -1 || yi === -1) {
+      model += '0000';
     } else {
-      model += [si, wi, fi].join('');
+      model += [si, wi, fi, yi].join('');
     }
     return model;
   },
