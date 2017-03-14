@@ -62,17 +62,17 @@ var utils = {
                 opgeeModel.fetch({ async: false, success: function (data) {
                   Oci.Collections.opgee.add(data);
                 }});
-            }
-            var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
-            var extraction = +opgee['Net lifecycle emissions'];
+                }
+              var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
+              var extraction = +opgee['Net lifecycle emissions'];
 
-            if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
-              opgeeExtent = extraction;
+              if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
+                opgeeExtent = extraction;
+              }
             }
           }
         }
       }
-    }
       for (var l = 0; l < data.metadata.refinery.split(',').length; l++) {
         // this for loop is for LPG runs
         for (var m = 0; m < 2; m++) {
