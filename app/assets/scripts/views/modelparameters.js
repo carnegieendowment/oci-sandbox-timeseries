@@ -205,7 +205,7 @@ var ModelParameters = Backbone.View.extend({
            format: wNumb({
                postfix: '%'
            })
-           stepped: true
+           stepped: false
        }
    });
    this.yearSlider.on('update', function(value) {
