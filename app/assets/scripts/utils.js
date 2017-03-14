@@ -54,14 +54,14 @@ var utils = {
       for (var i = 0; i < data.metadata.solarSteam.split(',').length; i++) {
         for (var j = 0; j < data.metadata.water.split(',').length; j++) {
           for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
-              for (var n = 0; l < data.metadata.years.split(',').length; n++) {
-                    // if we don't have the necessary data, load it
-                    var opgeeRun = 'run' + i + j + k + n;
-                    if (!Oci.Collections.opgee.get(opgeeRun)) {
-                    var opgeeModel = new OpgeeModel({ id: opgeeRun });
-                     opgeeModel.fetch({ async: false, success: function (data) {
-                        Oci.Collections.opgee.add(data);
-                        }});
+            for (var n = 0; l < data.metadata.years.split(',').length; n++) {
+              // if we don't have the necessary data, load it
+              var opgeeRun = 'run' + i + j + k + n;
+              if (!Oci.Collections.opgee.get(opgeeRun)) {
+                var opgeeModel = new OpgeeModel({ id: opgeeRun });
+                opgeeModel.fetch({ async: false, success: function (data) {
+                  Oci.Collections.opgee.add(data);
+                }});
             }
             var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
             var extraction = +opgee['Net lifecycle emissions'];
@@ -69,7 +69,6 @@ var utils = {
             if (!opgeeExtent || (extraction * minMaxMultiplier > opgeeExtent * minMaxMultiplier)) {
               opgeeExtent = extraction;
             }
-           }
           }
         }
       }
