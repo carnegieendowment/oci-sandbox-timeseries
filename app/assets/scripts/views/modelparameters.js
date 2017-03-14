@@ -16,6 +16,8 @@ var flaringValues;
 var flaringLabels;
 var waterValues;
 var waterLabels;
+var yearValues;
+var yearLabels;
 var cokeValues;
 var cokeLabels;
 
@@ -49,6 +51,7 @@ var ModelParameters = Backbone.View.extend({
       solarSteam: (this.solarSteamSlider.get() / 100),
       water: (this.waterSlider.get() / 100),
       flaring: (this.flaringSlider.get() / 100),
+      year: (this.yearSlider.get() / 100),
       showCoke: (this.cokeSlider.get() / 100),
       refinery: $('#dropdown-refinery').val(),
       lpg: $('#toggle-lpg').is(':checked')
@@ -63,12 +66,15 @@ var ModelParameters = Backbone.View.extend({
         var solarSteam = params.opgee[3];
         var water = params.opgee[4];
         var flaring = params.opgee[5];
+        var year = params.opgee[6];
         var solarSteamValue = parseFloat(Oci.data.metadata.solarSteam.split(',')[solarSteam]) * 100;
         this.solarSteamSlider.set(solarSteamValue);
         var waterValue = parseFloat(Oci.data.metadata.water.split(',')[water]) * 100;
         this.waterSlider.set(waterValue);
         var flaringValue = parseFloat(Oci.data.metadata.flare.split(',')[flaring]) * 100;
         this.flaringSlider.set(flaringValue);
+        var yearValue = parseFloat(Oci.data.metadata.year.split(',')[year]) * 6 + 1966;
+        this.yearSlider.set(yearValue);
       } catch (e) {
         console.warn('bad input parameter', e);
       }
@@ -100,6 +106,8 @@ var ModelParameters = Backbone.View.extend({
     $('.value.flare span').html(flaring + '%');
     var water = parseInt(this.waterSlider.get());
     $('.value.water span').html(water + '%');
+    var year = parseInt(this.yearSlider.get());
+    $('.value.year span').html(year + '%');
     var petcoke = parseInt(this.cokeSlider.get());
     $('.value.petcoke span').html(petcoke + '%');
     var lpg = $('#toggle-lpg').is(':checked') ? 'Sell' : 'Use';
@@ -184,6 +192,25 @@ var ModelParameters = Backbone.View.extend({
     this.waterSlider.on('update', function (value) {
       self.trigger('sliderUpdate', value);
     });
+      
+   this.yearSlider = noUiSlider.create($('#slider-year')[0], {
+       start: 1966,
+       connect: 'lower',
+       snap: true,
+       range: _.zipObject(yearLabels, yearValues),
+       pips: {
+           mode: 'values',
+           values: yearValues,
+           density: 10,
+           format: wNumb({
+               postfix: '%'
+           })
+           stepped: true
+       }
+   });
+   this.yearSlider.on('update', function(value) {
+       self.trigger('sliderUpdate', value);
+   });
 
     this.cokeSlider = noUiSlider.create($('#slider-coke')[0], {
       start: 100,
@@ -217,12 +244,14 @@ var ModelParameters = Backbone.View.extend({
     solarSteamValues = this.metadataToArray(m.solarSteam);
     flaringValues = this.metadataToArray(m.flare);
     waterValues = this.metadataToArray(m.water);
+    yearValues = this.metadataToArray(m.year);
     cokeValues = [0, 50, 100];
 
     solarSteamLabels = this.sliderHelper(solarSteamValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
-    cokeLabels = this.sliderHelper(cokeValues);
+    yearLabels = this.sliderHelper(yearValues);
+    cokeLabels = this.sliderHelperYear(cokeValues);
   },
 
   // helper function for setSliders
@@ -231,6 +260,17 @@ var ModelParameters = Backbone.View.extend({
     var max = d3.max(array);
     var tempArray = array.map(function (val) {
       return ((val - min) / ((max - min) / 100)).toFixed(0) + '%';
+    });
+    tempArray[0] = 'min';
+    tempArray[tempArray.length - 1] = 'max';
+    return tempArray;
+  },
+    
+  sliderHelperYear: function (array) {
+    var min = d3.min(array);
+    var max = d3.max(array);
+    var tempArray = array.map(function (val) {
+      return (val).toFixed(0);
     });
     tempArray[0] = 'min';
     tempArray[tempArray.length - 1] = 'max';
