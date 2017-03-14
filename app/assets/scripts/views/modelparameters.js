@@ -192,7 +192,7 @@ var ModelParameters = Backbone.View.extend({
     this.waterSlider.on('update', function (value) {
       self.trigger('sliderUpdate', value);
     });
- 
+
     this.yearSlider = noUiSlider.create($('#slider-year')[0], {
       start: 1966,
       connect: 'lower',
@@ -265,7 +265,7 @@ var ModelParameters = Backbone.View.extend({
     tempArray[tempArray.length - 1] = 'max';
     return tempArray;
   },
-    
+
   sliderHelperYear: function (array) {
     var tempArray = array.map(function (val) {
       return (val).toFixed(0);
