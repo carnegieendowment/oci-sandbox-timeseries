@@ -92,7 +92,7 @@ var BaseView = Backbone.View.extend({
     if (this.modelParametersView) {
       var params = this.modelParametersView.getModelValues();
       baseObj = {
-        opgee: utils.getOPGEEModel(params.solarSteam, params.water, params.flaring),
+        opgee: utils.getOPGEEModel(params.solarSteam, params.water, params.flaring, params.year),
         prelim: utils.getPRELIMModel(params.refinery, params.lpg),
         showCoke: params.showCoke
       };
