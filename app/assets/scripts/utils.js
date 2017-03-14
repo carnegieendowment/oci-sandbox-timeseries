@@ -62,7 +62,7 @@ var utils = {
                 opgeeModel.fetch({ async: false, success: function (data) {
                   Oci.Collections.opgee.add(data);
                 }});
-                }
+              }
               var opgee = Oci.Collections.opgee.get(opgeeRun).toJSON()[key];
               var extraction = +opgee['Net lifecycle emissions'];
 
