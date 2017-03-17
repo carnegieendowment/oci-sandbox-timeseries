@@ -73,7 +73,7 @@ var ModelParameters = Backbone.View.extend({
         this.waterSlider.set(waterValue);
         var flaringValue = parseFloat(Oci.data.metadata.flare.split(',')[flaring]) * 100;
         this.flaringSlider.set(flaringValue);
-        var yearValue = parseFloat(Oci.data.metadata.year.split(',')[year]) / 100;
+        var yearValue = parseFloat(Oci.data.metadata.year.split(',')[year]) * 0.01;
         this.yearSlider.set(yearValue);
       } catch (e) {
         console.warn('bad input parameter', e);
