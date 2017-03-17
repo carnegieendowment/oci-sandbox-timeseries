@@ -51,7 +51,7 @@ var ModelParameters = Backbone.View.extend({
       solarSteam: (this.solarSteamSlider.get() / 100),
       water: (this.waterSlider.get() / 100),
       flaring: (this.flaringSlider.get() / 100),
-      year: (this.yearSlider.get()),
+      year: (this.yearSlider.get()/100),
       showCoke: (this.cokeSlider.get() / 100),
       refinery: $('#dropdown-refinery').val(),
       lpg: $('#toggle-lpg').is(':checked')
@@ -73,7 +73,7 @@ var ModelParameters = Backbone.View.extend({
         this.waterSlider.set(waterValue);
         var flaringValue = parseFloat(Oci.data.metadata.flare.split(',')[flaring]) * 100;
         this.flaringSlider.set(flaringValue);
-        var yearValue = parseFloat(Oci.data.metadata.year.split(',')[year]) * 6 + 1966;
+        var yearValue = parseFloat(Oci.data.metadata.year.split(',')[year]) * 100;
         this.yearSlider.set(yearValue);
       } catch (e) {
         console.warn('bad input parameter', e);
@@ -107,7 +107,7 @@ var ModelParameters = Backbone.View.extend({
     var water = parseInt(this.waterSlider.get());
     $('.value.water span').html(water + '%');
     var year = parseInt(this.yearSlider.get());
-    $('.value.year span').html(year + '%');
+    $('.value.year span').html(year);
     var petcoke = parseInt(this.cokeSlider.get());
     $('.value.petcoke span').html(petcoke + '%');
     var lpg = $('#toggle-lpg').is(':checked') ? 'Sell' : 'Use';
@@ -250,7 +250,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamLabels = this.sliderHelper(solarSteamValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
-    yearLabels = this.sliderHelperYear(yearValues);
+    yearLabels = this.sliderHelper(yearValues);
     cokeLabels = this.sliderHelper(cokeValues);
   },
 
