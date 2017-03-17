@@ -249,7 +249,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamLabels = this.sliderHelper(solarSteamValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
-    yearLabels = this.sliderHelperYear(yearValues);
+    yearLabels = this.sliderHelperYear(yearValues) / 100;
     cokeLabels = this.sliderHelper(cokeValues);
   },
 
