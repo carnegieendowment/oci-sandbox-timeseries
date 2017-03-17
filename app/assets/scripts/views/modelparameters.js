@@ -284,7 +284,7 @@ var ModelParameters = Backbone.View.extend({
 
   metadataToYearArray: function (metadata) {
     return metadata.split(',').sort(function (a, b) {
-        return Number(a) - Number(b);
+      return Number(a) - Number(b);
     }).map(function (val) { return Number(val); });
   }
 });
