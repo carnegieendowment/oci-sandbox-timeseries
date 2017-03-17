@@ -203,6 +203,7 @@ var ModelParameters = Backbone.View.extend({
         values: yearValues,
         density: 10,
         format: wNumb({
+            toFixed(yearValues, 0),
         }),
         stepped: true
       }
