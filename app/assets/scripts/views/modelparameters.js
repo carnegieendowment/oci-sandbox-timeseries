@@ -270,7 +270,7 @@ var ModelParameters = Backbone.View.extend({
     var min = d3.min(array);
     var max = d3.max(array);
     var tempArray = array.map(function (val) {
-      return ((val - min) / ((max - min) / 100)).toFixed(-1);
+      return ((val - min) / ((max - min) / 100)).toFixed(0);
     });
     tempArray[0] = 'min';
     tempArray[tempArray.length - 1] = 'max';
