@@ -54,7 +54,7 @@ var utils = {
       for (var i = 0; i < data.metadata.solarSteam.split(',').length; i++) {
         for (var j = 0; j < data.metadata.water.split(',').length; j++) {
           for (var k = 0; k < data.metadata.flare.split(',').length; k++) {
-            for (var n = 0; n < data.metadata.years.split(',').length; n++) {
+            for (var n = 0; n < data.metadata.year.split(',').length; n++) {
               // if we don't have the necessary data, load it
               var opgeeRun = 'run' + i + j + k + n;
               if (!Oci.Collections.opgee.get(opgeeRun)) {
