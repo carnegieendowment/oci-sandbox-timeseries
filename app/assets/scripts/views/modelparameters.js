@@ -249,7 +249,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamLabels = this.sliderHelper(solarSteamValues);
     flaringLabels = this.sliderHelper(flaringValues);
     waterLabels = this.sliderHelper(waterValues);
-    yearLabels = this.sliderHelperYear(yearValues) / 100;
+    yearLabels = this.sliderHelperYear(yearValues);
     cokeLabels = this.sliderHelper(cokeValues);
   },
 
@@ -269,7 +269,7 @@ var ModelParameters = Backbone.View.extend({
     var min = d3.min(array);
     var max = d3.max(array);
     var tempArray = array.map(function (val) {
-      return ((val - min) / ((max - min) / 100)).toFixed(0);
+      return ((val - min) / ((max - min))).toFixed(0);
     });
     tempArray[0] = 'min';
     tempArray[tempArray.length - 1] = 'max';
