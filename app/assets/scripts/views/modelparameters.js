@@ -201,7 +201,7 @@ var ModelParameters = Backbone.View.extend({
       pips: {
         mode: 'values',
         values: yearValues,
-        density: 1,
+        density: 10,
         format: wNumb({
         }),
         stepped: true
@@ -243,7 +243,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamValues = this.metadataToArray(m.solarSteam);
     flaringValues = this.metadataToArray(m.flare);
     waterValues = this.metadataToArray(m.water);
-    yearValues = this.metadataToArray(m.year);
+    yearValues = this.metadataToArrayYear(m.year);
     cokeValues = [0, 50, 100];
 
     solarSteamLabels = this.sliderHelper(solarSteamValues);
@@ -280,6 +280,13 @@ var ModelParameters = Backbone.View.extend({
     return metadata.split(',').sort(function (a, b) {
       return Number(a) - Number(b);
     }).map(function (val) { return Number(val) * 100; });
+  }
+}),
+
+metadataToArrayYear: function (metadata) {
+    return metadata.split(',').sort(function (a, b) {
+      return Number(a) - Number(b);
+    }).map(function (val) { return Number(val); });
   }
 });
 
