@@ -201,9 +201,8 @@ var ModelParameters = Backbone.View.extend({
       pips: {
         mode: 'values',
         values: yearValues,
-        density: 10,
+        density: 1,
         format: wNumb({
-          postfix: '%'
         }),
         stepped: true
       }
