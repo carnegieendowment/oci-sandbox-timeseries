@@ -280,10 +280,9 @@ var ModelParameters = Backbone.View.extend({
     return metadata.split(',').sort(function (a, b) {
       return Number(a) - Number(b);
     }).map(function (val) { return Number(val) * 100; });
-  }
-}),
+  },
 
-metadataToArrayYear: function (metadata) {
+  metadataToArrayYear: function (metadata) {
     return metadata.split(',').sort(function (a, b) {
       return Number(a) - Number(b);
     }).map(function (val) { return Number(val); });
