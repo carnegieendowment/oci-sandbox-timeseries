@@ -244,7 +244,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamValues = this.metadataToArray(m.solarSteam);
     flaringValues = this.metadataToArray(m.flare);
     waterValues = this.metadataToArray(m.water);
-    yearValues = this.metadataToArray(m.year);
+    yearValues = toFixed(this.metadataToArray(m.year),0);
     cokeValues = [0, 50, 100];
 
     solarSteamLabels = this.sliderHelper(solarSteamValues);
