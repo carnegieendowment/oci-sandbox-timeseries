@@ -243,7 +243,7 @@ var ModelParameters = Backbone.View.extend({
     solarSteamValues = this.metadataToArray(m.solarSteam);
     flaringValues = this.metadataToArray(m.flare);
     waterValues = this.metadataToArray(m.water);
-    yearValues = this.metadataToArray(m.year);
+    yearValues = this.metadataToYearArray(m.year);
     cokeValues = [0, 50, 100];
 
     solarSteamLabels = this.sliderHelper(solarSteamValues);
@@ -269,7 +269,7 @@ var ModelParameters = Backbone.View.extend({
     var min = d3.min(array);
     var max = d3.max(array);
     var tempArray = array.map(function (val) {
-      return ((val - min) / ((max - min))).toFixed(0);
+      return ((val - min) / ((max - min) / 100)).toFixed(0);
     });
     tempArray[0] = 'min';
     tempArray[tempArray.length - 1] = 'max';
@@ -280,6 +280,12 @@ var ModelParameters = Backbone.View.extend({
     return metadata.split(',').sort(function (a, b) {
       return Number(a) - Number(b);
     }).map(function (val) { return Number(val) * 100; });
+  },
+    
+    metadataToYearArray: function (metadata) {
+    return metadata.split(',').sort(function (a, b) {
+      return Number(a) - Number(b);
+    }).map(function (val) { return Number(val); });
   }
 });
 
