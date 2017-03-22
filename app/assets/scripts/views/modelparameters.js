@@ -194,7 +194,7 @@ var ModelParameters = Backbone.View.extend({
     });
 
     this.yearSlider = noUiSlider.create($('#slider-year')[0], {
-      start: 1966,
+      start: 2014,
       connect: 'lower',
       snap: true,
       range: _.zipObject(yearLabels, yearValues),
@@ -270,7 +270,7 @@ var ModelParameters = Backbone.View.extend({
     var min = d3.min(array);
     var max = d3.max(array);
     var tempArray = array.map(function (val) {
-      return ((val - min) / ((max - min) / 100)).toFixed(0);
+      return ((val - min) / ((max - min) / 100)).toFixed(5);
     });
     tempArray[0] = 'min';
     tempArray[tempArray.length - 1] = 'max';
