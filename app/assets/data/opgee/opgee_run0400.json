@@ -18,7 +18,7 @@
     "Gas-to-Oil-Ratio": "30503",
     "Water-to-Oil-Ratio": "11.84659333",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "356.6498026"
+    "Flaring-to-Oil-Ratio": "267.4873519"
   },
   "Angola Girassol": {
     "Unique": "Angola Girassol",
@@ -39,7 +39,7 @@
     "Gas-to-Oil-Ratio": "637.245",
     "Water-to-Oil-Ratio": "0.75",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "32.19558038"
+    "Flaring-to-Oil-Ratio": "24.14668528"
   },
   "Angola Kuito": {
     "Unique": "Angola Kuito",
@@ -60,7 +60,7 @@
     "Gas-to-Oil-Ratio": "200",
     "Water-to-Oil-Ratio": "1.83226156",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "58.43857205"
+    "Flaring-to-Oil-Ratio": "43.82892904"
   },
   "Angola Takula": {
     "Unique": "Angola Takula",
@@ -81,7 +81,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "6",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "68.17219104"
+    "Flaring-to-Oil-Ratio": "51.12914328"
   },
   "Australia Cossack": {
     "Unique": "Australia Cossack",
@@ -102,7 +102,7 @@
     "Gas-to-Oil-Ratio": "2845.82",
     "Water-to-Oil-Ratio": "0.27",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Azerbaijan Azeri Light": {
     "Unique": "Azerbaijan Azeri Light",
@@ -123,7 +123,7 @@
     "Gas-to-Oil-Ratio": "1299",
     "Water-to-Oil-Ratio": "2.160092703",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Brazil Frade": {
     "Unique": "Brazil Frade",
@@ -144,7 +144,7 @@
     "Gas-to-Oil-Ratio": "2081",
     "Water-to-Oil-Ratio": "1.95",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Brazil Lula": {
     "Unique": "Brazil Lula",
@@ -165,7 +165,7 @@
     "Gas-to-Oil-Ratio": "3128",
     "Water-to-Oil-Ratio": "0.15",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "127.2728888"
+    "Flaring-to-Oil-Ratio": "95.45466657"
   },
   "China Bozhong": {
     "Unique": "China Bozhong",
@@ -186,7 +186,7 @@
     "Gas-to-Oil-Ratio": "7276",
     "Water-to-Oil-Ratio": "1.5",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "112.1111826"
+    "Flaring-to-Oil-Ratio": "84.08338693"
   },
   "China Nanhai Light": {
     "Unique": "China Nanhai Light",
@@ -207,7 +207,7 @@
     "Gas-to-Oil-Ratio": "4925.18815",
     "Water-to-Oil-Ratio": "5.445",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "234.3082865"
+    "Flaring-to-Oil-Ratio": "175.7312149"
   },
   "China Qinhuangdao": {
     "Unique": "China Qinhuangdao",
@@ -225,10 +225,10 @@
     "Offsite emissions": "1.774870127",
     "Net lifecycle emissions": "38.67199374",
     "API Gravity": "16.9",
-    "Gas-to-Oil-Ratio": "58.4",
+    "Gas-to-Oil-Ratio": "48.4",
     "Water-to-Oil-Ratio": "11.655",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "40.56084113"
+    "Flaring-to-Oil-Ratio": "30.42063084"
   },
   "Colombia Caño Limón": {
     "Unique": "Colombia Caño Limón",
@@ -246,10 +246,10 @@
     "Offsite emissions": "0.520376625",
     "Net lifecycle emissions": "37.35980958",
     "API Gravity": "29",
-    "Gas-to-Oil-Ratio": "90.73168598",
+    "Gas-to-Oil-Ratio": "73.04876449",
     "Water-to-Oil-Ratio": "2.28",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "70.73168598"
+    "Flaring-to-Oil-Ratio": "53.04876449"
   },
   "Colombia Cusiana": {
     "Unique": "Colombia Cusiana",
@@ -270,7 +270,7 @@
     "Gas-to-Oil-Ratio": "1700",
     "Water-to-Oil-Ratio": "3.512565971",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Ecuador Sacha": {
     "Unique": "Ecuador Sacha",
@@ -291,7 +291,7 @@
     "Gas-to-Oil-Ratio": "908",
     "Water-to-Oil-Ratio": "0.87",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "210.7385806"
+    "Flaring-to-Oil-Ratio": "158.0539355"
   },
   "India Bombay High": {
     "Unique": "India Bombay High",
@@ -312,7 +312,7 @@
     "Gas-to-Oil-Ratio": "15753.50743",
     "Water-to-Oil-Ratio": "8.637671618",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "163.4582666"
+    "Flaring-to-Oil-Ratio": "122.5937"
   },
   "Indonesia Duri": {
     "Unique": "Indonesia Duri",
@@ -330,10 +330,10 @@
     "Offsite emissions": "-108.4288538",
     "Net lifecycle emissions": "154.496844",
     "API Gravity": "19",
-    "Gas-to-Oil-Ratio": "64.07073425",
+    "Gas-to-Oil-Ratio": "53.05305069",
     "Water-to-Oil-Ratio": "4.5",
     "Steam-to-Oil-Ratio": "4.21",
-    "Flaring-to-Oil-Ratio": "44.07073425"
+    "Flaring-to-Oil-Ratio": "33.05305069"
   },
   "Indonesia Minas": {
     "Unique": "Indonesia Minas",
@@ -354,7 +354,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "18.08896066",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "111.6525036"
+    "Flaring-to-Oil-Ratio": "83.73937767"
   },
   "Iran Aboozar": {
     "Unique": "Iran Aboozar",
@@ -375,7 +375,7 @@
     "Gas-to-Oil-Ratio": "908",
     "Water-to-Oil-Ratio": "0.165",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "211.4965823"
+    "Flaring-to-Oil-Ratio": "158.6224367"
   },
   "Iran Marun": {
     "Unique": "Iran Marun",
@@ -396,7 +396,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "13.48951878",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "205.3766878"
+    "Flaring-to-Oil-Ratio": "154.0325159"
   },
   "Iraq Kirkuk": {
     "Unique": "Iraq Kirkuk",
@@ -417,7 +417,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "1.5",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "378.6404078"
+    "Flaring-to-Oil-Ratio": "283.9803058"
   },
   "Iraq Rumaila": {
     "Unique": "Iraq Rumaila",
@@ -438,7 +438,7 @@
     "Gas-to-Oil-Ratio": "625",
     "Water-to-Oil-Ratio": "2.25",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "368.5897803"
+    "Flaring-to-Oil-Ratio": "276.4423352"
   },
   "Iraq West Qurna": {
     "Unique": "Iraq West Qurna",
@@ -459,7 +459,7 @@
     "Gas-to-Oil-Ratio": "750",
     "Water-to-Oil-Ratio": "0.075",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "300.1697899"
+    "Flaring-to-Oil-Ratio": "225.1273424"
   },
   "Iraq Zubair": {
     "Unique": "Iraq Zubair",
@@ -477,10 +477,10 @@
     "Offsite emissions": "1.788783459",
     "Net lifecycle emissions": "131.7488724",
     "API Gravity": "30.2",
-    "Gas-to-Oil-Ratio": "1136.585192",
+    "Gas-to-Oil-Ratio": "857.4388939",
     "Water-to-Oil-Ratio": "2.25",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "1116.585192"
+    "Flaring-to-Oil-Ratio": "837.4388939"
   },
   "Kazakhstan Tengiz": {
     "Unique": "Kazakhstan Tengiz",
@@ -501,7 +501,7 @@
     "Gas-to-Oil-Ratio": "351",
     "Water-to-Oil-Ratio": "0.09",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "29.04467023"
+    "Flaring-to-Oil-Ratio": "21.78350267"
   },
   "Kuwait Burgan": {
     "Unique": "Kuwait Burgan",
@@ -522,7 +522,7 @@
     "Gas-to-Oil-Ratio": "500",
     "Water-to-Oil-Ratio": "0.45",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "15.85466472"
+    "Flaring-to-Oil-Ratio": "11.89099854"
   },
   "Kuwait Ratawi": {
     "Unique": "Kuwait Ratawi",
@@ -543,7 +543,7 @@
     "Gas-to-Oil-Ratio": "908",
     "Water-to-Oil-Ratio": "4.8",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "213.214069"
+    "Flaring-to-Oil-Ratio": "159.9105518"
   },
   "Libya Waha": {
     "Unique": "Libya Waha",
@@ -564,7 +564,7 @@
     "Gas-to-Oil-Ratio": "3752.778",
     "Water-to-Oil-Ratio": "16.65456533",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "28.24989038"
+    "Flaring-to-Oil-Ratio": "21.18741779"
   },
   "Mexico Chuc": {
     "Unique": "Mexico Chuc",
@@ -585,7 +585,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "5.83583434",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Nigeria Agbami": {
     "Unique": "Nigeria Agbami",
@@ -606,7 +606,7 @@
     "Gas-to-Oil-Ratio": "1733",
     "Water-to-Oil-Ratio": "0.45",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "37.4665111"
+    "Flaring-to-Oil-Ratio": "28.09988333"
   },
   "Nigeria Bonga": {
     "Unique": "Nigeria Bonga",
@@ -627,7 +627,7 @@
     "Gas-to-Oil-Ratio": "936.82",
     "Water-to-Oil-Ratio": "0.315",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Nigeria Bonny": {
     "Unique": "Nigeria Bonny",
@@ -648,7 +648,7 @@
     "Gas-to-Oil-Ratio": "20848.68",
     "Water-to-Oil-Ratio": "1.056",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "761.6632827"
+    "Flaring-to-Oil-Ratio": "571.247462"
   },
   "Nigeria Escravos Beach": {
     "Unique": "Nigeria Escravos Beach",
@@ -669,7 +669,7 @@
     "Gas-to-Oil-Ratio": "1311",
     "Water-to-Oil-Ratio": "1.62",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "1273"
+    "Flaring-to-Oil-Ratio": "954.75"
   },
   "Nigeria Obagi": {
     "Unique": "Nigeria Obagi",
@@ -690,7 +690,7 @@
     "Gas-to-Oil-Ratio": "21408.7",
     "Water-to-Oil-Ratio": "5.85",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "991.7385859"
+    "Flaring-to-Oil-Ratio": "743.8039394"
   },
   "Nigeria Pennington": {
     "Unique": "Nigeria Pennington",
@@ -711,7 +711,7 @@
     "Gas-to-Oil-Ratio": "1241",
     "Water-to-Oil-Ratio": "6.462553586",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "660.7790538"
+    "Flaring-to-Oil-Ratio": "495.5842903"
   },
   "Norway Skarv": {
     "Unique": "Norway Skarv",
@@ -732,7 +732,7 @@
     "Gas-to-Oil-Ratio": "5463",
     "Water-to-Oil-Ratio": "0.191043025",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "90.08109974"
+    "Flaring-to-Oil-Ratio": "67.56082481"
   },
   "Qatar Bul Hanine": {
     "Unique": "Qatar Bul Hanine",
@@ -753,7 +753,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "10.37185812",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "151.6507462"
+    "Flaring-to-Oil-Ratio": "113.7380597"
   },
   "Qatar Dukhan": {
     "Unique": "Qatar Dukhan",
@@ -774,7 +774,7 @@
     "Gas-to-Oil-Ratio": "2363.239",
     "Water-to-Oil-Ratio": "38.36090245",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "67.8209752"
+    "Flaring-to-Oil-Ratio": "50.8657314"
   },
   "Russia Romashkinskoye": {
     "Unique": "Russia Romashkinskoye",
@@ -795,7 +795,7 @@
     "Gas-to-Oil-Ratio": "29.645",
     "Water-to-Oil-Ratio": "4.5",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Russia Samotlor": {
     "Unique": "Russia Samotlor",
@@ -816,7 +816,7 @@
     "Gas-to-Oil-Ratio": "481.78",
     "Water-to-Oil-Ratio": "13.5",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "12.0144372"
+    "Flaring-to-Oil-Ratio": "9.0108279"
   },
   "Saudi Arabia Ghawar": {
     "Unique": "Saudi Arabia Ghawar",
@@ -837,7 +837,7 @@
     "Gas-to-Oil-Ratio": "570",
     "Water-to-Oil-Ratio": "0.6428565",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "14.47008706"
+    "Flaring-to-Oil-Ratio": "10.85256529"
   },
   "Saudi Arabia Safaniya": {
     "Unique": "Saudi Arabia Safaniya",
@@ -858,7 +858,7 @@
     "Gas-to-Oil-Ratio": "225",
     "Water-to-Oil-Ratio": "0.645",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Saudi Arabia Zuluf": {
     "Unique": "Saudi Arabia Zuluf",
@@ -879,7 +879,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "9.048095094",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10.29010515"
+    "Flaring-to-Oil-Ratio": "7.71757886"
   },
   "United Arab Emirates Fateh": {
     "Unique": "United Arab Emirates Fateh",
@@ -900,7 +900,7 @@
     "Gas-to-Oil-Ratio": "4270",
     "Water-to-Oil-Ratio": "1.5",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "48.3302287"
+    "Flaring-to-Oil-Ratio": "36.24767153"
   },
   "United Arab Emirates Murban": {
     "Unique": "United Arab Emirates Murban",
@@ -921,7 +921,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "0.15",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "41.22377563"
+    "Flaring-to-Oil-Ratio": "30.91783172"
   },
   "U.S.  Alaska North Slope": {
     "Unique": "U.S.  Alaska North Slope",
@@ -942,7 +942,7 @@
     "Gas-to-Oil-Ratio": "23516",
     "Water-to-Oil-Ratio": "5.94",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "20.69652442"
+    "Flaring-to-Oil-Ratio": "15.52239331"
   },
   "U.S. Bakken Flare": {
     "Unique": "U.S. Bakken Flare",
@@ -963,7 +963,7 @@
     "Gas-to-Oil-Ratio": "1273",
     "Water-to-Oil-Ratio": "1.155",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "521.6374762"
+    "Flaring-to-Oil-Ratio": "391.2281072"
   },
   "U.S. Bakken No Flare": {
     "Unique": "U.S. Bakken No Flare",
@@ -984,7 +984,7 @@
     "Gas-to-Oil-Ratio": "1273",
     "Water-to-Oil-Ratio": "1.155",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Texas Eagle Ford Black Oil Zone": {
     "Unique": "U.S. Texas Eagle Ford Black Oil Zone",
@@ -1005,7 +1005,7 @@
     "Gas-to-Oil-Ratio": "906",
     "Water-to-Oil-Ratio": "1.35",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "95.04739543"
+    "Flaring-to-Oil-Ratio": "71.28554658"
   },
   "U.S. Texas Eagle Ford Volatile Oil Zone": {
     "Unique": "U.S. Texas Eagle Ford Volatile Oil Zone",
@@ -1026,7 +1026,7 @@
     "Gas-to-Oil-Ratio": "2496",
     "Water-to-Oil-Ratio": "1.35",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "95.04739543"
+    "Flaring-to-Oil-Ratio": "71.28554658"
   },
   "U.S. Texas Eagle Ford Condensate Zone": {
     "Unique": "U.S. Texas Eagle Ford Condensate Zone",
@@ -1047,7 +1047,7 @@
     "Gas-to-Oil-Ratio": "8571",
     "Water-to-Oil-Ratio": "1.35",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "1690.551148"
+    "Flaring-to-Oil-Ratio": "1267.913361"
   },
   "U.S.  East Texas Field": {
     "Unique": "U.S.  East Texas Field",
@@ -1068,7 +1068,7 @@
     "Gas-to-Oil-Ratio": "325",
     "Water-to-Oil-Ratio": "56.09269982",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Louisiana Lake Washington Field": {
     "Unique": "U.S. Louisiana Lake Washington Field",
@@ -1089,7 +1089,7 @@
     "Gas-to-Oil-Ratio": "1297",
     "Water-to-Oil-Ratio": "46.43101771",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Gulf Mars": {
     "Unique": "U.S. Gulf Mars",
@@ -1110,7 +1110,7 @@
     "Gas-to-Oil-Ratio": "2000",
     "Water-to-Oil-Ratio": "0.3",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. California Midway Sunset": {
     "Unique": "U.S. California Midway Sunset",
@@ -1131,7 +1131,7 @@
     "Gas-to-Oil-Ratio": "531.5424841",
     "Water-to-Oil-Ratio": "3.527275498",
     "Steam-to-Oil-Ratio": "0.700829168",
-    "Flaring-to-Oil-Ratio": "16.24708535"
+    "Flaring-to-Oil-Ratio": "12.18531401"
   },
   "U.S. Wyoming Salt Creek": {
     "Unique": "U.S. Wyoming Salt Creek",
@@ -1152,7 +1152,7 @@
     "Gas-to-Oil-Ratio": "186.7424",
     "Water-to-Oil-Ratio": "55.62",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Gulf Thunder Horse": {
     "Unique": "U.S. Gulf Thunder Horse",
@@ -1173,7 +1173,7 @@
     "Gas-to-Oil-Ratio": "885",
     "Water-to-Oil-Ratio": "0.54",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "53.11567233"
+    "Flaring-to-Oil-Ratio": "39.83675425"
   },
   "U.S. Wyoming WC": {
     "Unique": "U.S. Wyoming WC",
@@ -1194,7 +1194,7 @@
     "Gas-to-Oil-Ratio": "5907",
     "Water-to-Oil-Ratio": "12",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Texas Yates": {
     "Unique": "U.S. Texas Yates",
@@ -1215,7 +1215,7 @@
     "Gas-to-Oil-Ratio": "500",
     "Water-to-Oil-Ratio": "1.92",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Venezuela Hamaca SCO": {
     "Unique": "Venezuela Hamaca SCO",
@@ -1236,7 +1236,7 @@
     "Gas-to-Oil-Ratio": "111",
     "Water-to-Oil-Ratio": "0.15",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "Venezuela Tia Juana": {
     "Unique": "Venezuela Tia Juana",
@@ -1257,7 +1257,7 @@
     "Gas-to-Oil-Ratio": "145",
     "Water-to-Oil-Ratio": "31.62017557",
     "Steam-to-Oil-Ratio": "0.194129938",
-    "Flaring-to-Oil-Ratio": "10"
+    "Flaring-to-Oil-Ratio": "7.5"
   },
   "U.S. Texas Spraberry": {
     "Unique": "U.S. Texas Spraberry",
@@ -1278,23 +1278,23 @@
     "Gas-to-Oil-Ratio": "1660.2",
     "Water-to-Oil-Ratio": "0.375",
     "Steam-to-Oil-Ratio": "0",
-    "Flaring-to-Oil-Ratio": "77.88634522"
+    "Flaring-to-Oil-Ratio": "58.41475891"
   },
   "U.S. California South Belridge": {
     "Unique": "U.S. California South Belridge",
     "Exploration": "0",
     "Drilling": "7.633280183",
-    "Production": "37.90409062",
-    "Processing": "3.553632343",
+    "Production": "74.91715855",
+    "Processing": "3.552117901",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "18.83546338",
+    "Venting, Flaring, and Fugitive Emissions": "18.88041358",
     "Diluent": "0",
     "Miscellaneous": "3.00544719",
     "Transport to Refinery": "4.774071155",
-    "Offsite emissions": "13.473786",
-    "Net lifecycle emissions": "89.17977087",
+    "Offsite emissions": "13.47961442",
+    "Net lifecycle emissions": "126.242103",
     "API Gravity": "23.7",
     "Gas-to-Oil-Ratio": "362.1546719",
     "Water-to-Oil-Ratio": "13.11941572",
@@ -1305,17 +1305,17 @@
     "Unique": "U.S. California Wilmington",
     "Exploration": "0",
     "Drilling": "0.8905326",
-    "Production": "5.442235569",
-    "Processing": "3.041837306",
+    "Production": "6.028013749",
+    "Processing": "3.031045357",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "16.82637968",
+    "Venting, Flaring, and Fugitive Emissions": "17.15181222",
     "Diluent": "0",
     "Miscellaneous": "3.061948889",
     "Transport to Refinery": "0.071234837",
-    "Offsite emissions": "0.399503637",
-    "Net lifecycle emissions": "29.73367251",
+    "Offsite emissions": "0.441007609",
+    "Net lifecycle emissions": "30.67559526",
     "API Gravity": "19.5",
     "Gas-to-Oil-Ratio": "197.350548",
     "Water-to-Oil-Ratio": "2.955638264",
@@ -1326,17 +1326,17 @@
     "Unique": "Coalinga",
     "Exploration": "0",
     "Drilling": "7.829073446",
-    "Production": "70.4744799",
-    "Processing": "2.642477181",
+    "Production": "139.487589",
+    "Processing": "2.631596226",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "17.02713651",
+    "Venting, Flaring, and Fugitive Emissions": "17.35256906",
     "Diluent": "0",
     "Miscellaneous": "3.090310525",
     "Transport to Refinery": "5.19798445",
-    "Offsite emissions": "30.95243072",
-    "Net lifecycle emissions": "137.2138927",
+    "Offsite emissions": "30.9945995",
+    "Net lifecycle emissions": "206.5837222",
     "API Gravity": "17.75",
     "Gas-to-Oil-Ratio": "41.34391134",
     "Water-to-Oil-Ratio": "11.42188741",
@@ -1347,17 +1347,17 @@
     "Unique": "Elk Hills",
     "Exploration": "0",
     "Drilling": "7.787303887",
-    "Production": "0.457156857",
-    "Processing": "7.326231422",
+    "Production": "0.455993151",
+    "Processing": "7.314722804",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "24.58865841",
+    "Venting, Flaring, and Fugitive Emissions": "24.91409095",
     "Diluent": "0",
     "Miscellaneous": "2.856991748",
     "Transport to Refinery": "4.327204275",
-    "Offsite emissions": "-8.32927896",
-    "Net lifecycle emissions": "39.01426763",
+    "Offsite emissions": "-8.306834316",
+    "Net lifecycle emissions": "39.3494725",
     "API Gravity": "34.6",
     "Gas-to-Oil-Ratio": "1631.257863",
     "Water-to-Oil-Ratio": "2.45782343",
@@ -1368,17 +1368,17 @@
     "Unique": "Huntington Beach",
     "Exploration": "0",
     "Drilling": "7.823969384",
-    "Production": "22.1589617",
-    "Processing": "3.750210661",
+    "Production": "22.1589958",
+    "Processing": "3.738410929",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "17.62016259",
+    "Venting, Flaring, and Fugitive Emissions": "17.94559514",
     "Diluent": "0",
     "Miscellaneous": "3.090310525",
     "Transport to Refinery": "4.620430622",
-    "Offsite emissions": "1.972615357",
-    "Net lifecycle emissions": "61.03666084",
+    "Offsite emissions": "2.014794277",
+    "Net lifecycle emissions": "61.39250667",
     "API Gravity": "17.5",
     "Gas-to-Oil-Ratio": "325.7190295",
     "Water-to-Oil-Ratio": "28.59529728",
@@ -1389,17 +1389,17 @@
     "Unique": "Kern River",
     "Exploration": "0",
     "Drilling": "2.268445656",
-    "Production": "28.25346605",
+    "Production": "53.05322904",
     "Processing": "0.043745681",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "16.21591034",
+    "Venting, Flaring, and Fugitive Emissions": "16.56039821",
     "Diluent": "0",
     "Miscellaneous": "3.19068413",
     "Transport to Refinery": "4.849003162",
     "Offsite emissions": "11.67544673",
-    "Net lifecycle emissions": "66.49670175",
+    "Net lifecycle emissions": "91.64095261",
     "API Gravity": "10",
     "Gas-to-Oil-Ratio": "0.699776403",
     "Water-to-Oil-Ratio": "3.509976578",
@@ -1410,17 +1410,17 @@
     "Unique": "Ventura",
     "Exploration": "0",
     "Drilling": "8.029308748",
-    "Production": "11.32757735",
-    "Processing": "4.27059162",
+    "Production": "11.32741731",
+    "Processing": "4.25901181",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "20.12297011",
+    "Venting, Flaring, and Fugitive Emissions": "20.44840265",
     "Diluent": "0",
     "Miscellaneous": "2.922356458",
     "Transport to Refinery": "4.542163982",
-    "Offsite emissions": "-1.532827998",
-    "Net lifecycle emissions": "49.68214027",
+    "Offsite emissions": "-1.507479578",
+    "Net lifecycle emissions": "50.02118138",
     "API Gravity": "29.875",
     "Gas-to-Oil-Ratio": "557.4925426",
     "Water-to-Oil-Ratio": "9.222081443",
@@ -1431,17 +1431,17 @@
     "Unique": "Canada Hibernia",
     "Exploration": "0",
     "Drilling": "1.707174272",
-    "Production": "8.214799927",
-    "Processing": "8.481573488",
+    "Production": "8.164826439",
+    "Processing": "8.437238541",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "29.58706712",
+    "Venting, Flaring, and Fugitive Emissions": "30.8796295",
     "Diluent": "0",
     "Miscellaneous": "2.87006469",
     "Transport to Refinery": "2.120642479",
-    "Offsite emissions": "-0.045116691",
-    "Net lifecycle emissions": "52.93620529",
+    "Offsite emissions": "-0.034462291",
+    "Net lifecycle emissions": "54.14511363",
     "API Gravity": "33.5",
     "Gas-to-Oil-Ratio": "2166.465448",
     "Water-to-Oil-Ratio": "1.026856498",
@@ -1452,17 +1452,17 @@
     "Unique": "Norway Ekofisk",
     "Exploration": "0",
     "Drilling": "1.195478718",
-    "Production": "18.01308958",
-    "Processing": "4.731173159",
+    "Production": "18.01296679",
+    "Processing": "4.727478824",
     "Upgrading": "0",
     "Maintenance": "0",
     "Waste": "0",
-    "Venting, Flaring, and Fugitive Emissions": "19.3708354",
+    "Venting, Flaring, and Fugitive Emissions": "19.54922912",
     "Diluent": "0",
     "Miscellaneous": "2.826414359",
     "Transport to Refinery": "3.227503853",
-    "Offsite emissions": "-6.120306682",
-    "Net lifecycle emissions": "43.24418838",
+    "Offsite emissions": "-6.105250802",
+    "Net lifecycle emissions": "43.43382087",
     "API Gravity": "36",
     "Gas-to-Oil-Ratio": "1144.84",
     "Water-to-Oil-Ratio": "1.79462241",
