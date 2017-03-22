@@ -281,11 +281,11 @@ var EmissionsDrivers = BaseView.extend({
        })
        .attr('cy', function (d) { return d; })
        .attr('r', function (d, i) {
-         return self.rScale([5000000, 2000000, 100000][i]);
+         return self.rScale([90000, 40000, 4000][i]);
        });
 
     d3.select('svg').selectAll('.circle-text')
-      .data([{text: '5M', y: 10}, {text: '2M', y: 38}, {text: '100k', y: 73}])
+      .data([{text: '90k', y: 10}, {text: '40k', y: 38}, {text: '4000', y: 73}])
       .enter()
       .append('text')
       .attr('class', 'circle-text')
