@@ -2,6 +2,6 @@
   "solarSteam": "0, 0.15, 0.3, 0.5",
   "water": "1,0.5,0.75,1.25,1.5",
   "flare": "1,0.1,0.75",
-  "year": "1966, 1977, 1987, 1997, 2006, 2014",
+  "year": "19.66, 19.77, 19.87, 19.97, 20.06, 20.14",
   "refinery": "0 = Default, 1 = Hydroskimming, 2 = Medium Conversion, 3 = Deep Conversion (Coking), 4 = Deep Conversion (Hydrotreating)"
 }
