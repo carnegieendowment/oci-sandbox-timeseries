@@ -51,7 +51,7 @@ var ModelParameters = Backbone.View.extend({
       solarSteam: (this.solarSteamSlider.get() / 100),
       water: (this.waterSlider.get() / 100),
       flaring: (this.flaringSlider.get() / 100),
-      year: (this.yearSlider.get() / 100).toFixed[0],
+      year: (this.yearSlider.get() / 100).toFixed(0),
       showCoke: (this.cokeSlider.get() / 100),
       refinery: $('#dropdown-refinery').val(),
       lpg: $('#toggle-lpg').is(':checked')
